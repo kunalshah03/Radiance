@@ -10,7 +10,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="description" content="Welcome to the website of Radiance 2020!">
-  
+
   <link rel="shortcut icon" type="image/x-icon" href="img/Radiance icon.png">
 
   <!-- CSS here -->
@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  
+
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="scss/aboutUs.css">
   <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
@@ -41,7 +41,7 @@
     }
 
 
- 
+
     header {
       background-color: #252525;
       box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
@@ -782,7 +782,6 @@
                 <div class="item">
                   <div class="thumb">
                     <img class="img-council" src="img/team/janhavi.jpeg" alt="Thumb">
-
                   </div>
                   <div class="info">
                     <span class="message">
@@ -794,11 +793,11 @@
                   </div>
                 </div>
               </div>
+
               <div class="col-md-5 single-item">
                 <div class="item">
                   <div class="thumb">
                     <img class="img-council" src="img/team/rucha.jpeg" alt="Thumb">
-
                   </div>
                   <div class="info">
                     <span class="message">
@@ -809,6 +808,23 @@
                   </div>
                 </div>
               </div>
+
+              <div class="col-md-5 single-item">
+                <div class="item">
+                  <div class="thumb">
+                    <img class="img-council" src="img/team/kunal.jpg" alt="Thumb">
+                  </div>
+                  <div class="info">
+                    <span class="message">
+                      <a target="_blank" href="https://www.linkedin.com/in/kunal-shah-86a23016b/">
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                    </span>
+                    <h4>Kunal Shah</h4>
+                  </div>
+                </div>
+              </div>
+
               <div class="col-md-1"></div>
             </div>
           </div>
@@ -859,14 +875,14 @@
         return false;
       return true;
     }
-    // Fetch Url value 
+    // Fetch Url value
     var getQueryString = function (parameter) {
       var href = window.location.href;
       var reg = new RegExp('[?&]' + parameter + '=([^&#]*)', 'i');
       var string = reg.exec(href);
       return string ? string[1] : null;
     };
-    // End url 
+    // End url
     // // slider call
     $('#slider').slider({
       range: true,
